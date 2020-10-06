@@ -21,3 +21,14 @@ Give special attention to the terms in the document title and analyze the change
 and without attention to terms in title.
 
 Compare and state pros and cons for all the techniques.
+
+Separately,
+
+Download the dictionary from http://www.gwicks.net/dictionaries.htm (UK ENGLISH - 65,000 words)
+
+Take a sentence as input from user. For each non dictionary words present in the sentence
+suggest top k words on the basis of minimum edit distance. Cost of operations is defined as:
+
+Insert: 2
+Delete: 1
+Replace: 3
